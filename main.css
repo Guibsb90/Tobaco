@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  padding: 16px 0;
+  background-color: rgb(214, 122, 0);
+  color: bisque;
+}
+body{
+  font-family: sans-serif
+}
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+  
+}
+header h1,
+section h2{
+  font-weight: normal;
+}
+header nav li a{
+  color: bisque;
+  text-decoration: none;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container,
+section .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands-list img{
+  height: 64px;
+}
+.brands-list li{
+  display: inline;
+}
+.store-front{
+  margin-right: 32px;
+} 
+header ,
+section h2{
+font-family:'Bungee', cursive;
+}
+.social-links img{
+  height:34px;
+}
+#contact .container{
+  display:block;
+  
+}
+.contact-method{
+  display: flex;
+  justify-content: space-between ;
+}
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 380px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea{
+  resize: none;
+}
+.social-links img{
+  height: 44px;
+}
+#contact .container{
+  display:block ;
+}
+.contact-method{
+  display:flex
+}
+section .container{
+  align-items: flex-start;
+}
+section{
+  padding: 24px 0;
+  color:rgb(124, 71, 1) ;
+}
+section h2{
+  margin-bottom: 16px;
+}
+section p{
+  margin-bottom: 18px;
+}
+.store-front{
+  margin-right: 32px;
+} 
+header ,
+section h2{
+font-family:'Bungee', cursive;
+}
+ul img{
+  margin-top: 25px;
+  margin-left: 12px;
+}
+form imput,
+form textarea,
+form button{
+  display: block;
+  width: 320px;
+}
+.social-links li{
+  display: inline;
+}
+form button{
+  cursor: pointer;
+  color:beige;
+  background-color:rgb(165, 73, 7)
+}
+form button:hover{
+  background-color: rgb(206, 182, 44);
+}
+input:focus, textarea:focus{
+  outline-color: rgb(10, 36, 187);
+}
+footer{
+  background-color: rgb(214, 122, 0);
+  color: beige;
+  padding: 16px 0;
+  padding-left: 41%;
+}
